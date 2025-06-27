@@ -1,5 +1,7 @@
 import Image from "next/image";
-import TestimonialImg from "@/public/images/large-testimonial.jpg";
+import Person1 from "@/public/images/avatar-01.jpg";
+import Person2 from "@/public/images/avatar-02.jpg";
+import Person3 from "@/public/images/avatar-03.jpg";
 
 export default function LargeTestimonial() {
   return (
@@ -23,23 +25,44 @@ export default function LargeTestimonial() {
               </svg>
               <Image
                 className="rounded-full"
-                src={TestimonialImg}
-                width={48}
-                height={48}
+                src={Person3}
+                width={80}
+                height={80}
                 alt="Large testimonial"
               />
             </div>
-            <p className="text-2xl font-bold text-gray-900">
-              “Simple has simplified my life in more ways than one. From
-              managing my sites to{" "}
-              <em className="italic text-gray-500">keeping track of tasks</em>,
-              it's become my go-to tool for everything.”
+            <p className="font-bold text-gray-900">
+              Sergio Fernández-Pacheco es licenciado en Derecho y Ciencias
+              Empresariales por la Universidad Pontificia de Comillas (ICADE
+              E-3).
+            </p>
+            <p className="font-bold text-gray-900">
+              Comenzó su carrera profesional en 1994, en el área de Servicios
+              Financieros de Accenture, desarrollando proyectos de tecnología y
+              reingeniería de procesos para diferentes entidades bancarias.
+            </p>
+            <p className="font-bold text-gray-900">
+              En 1997 entró en BBVA, donde ocupó diferentes puestos de
+              responsabilidad en unidades como Expansión Corporativa, Banca
+              Privada, Banca de Inversiones y, en su última etapa, como managing
+              director de Asset Management, coordinando planes estratégicos,
+              iniciativas digitales, y propuestas de producto propio y de
+              terceras gestoras.
+            </p>
+            <p className="font-bold text-gray-900">
+              Durante su carrera profesional en el Grupo BBVA fue presidente de
+              Europea de Titulización, miembro del Consejo de Garanti Asset
+              Management (Turquía) y miembro del Consejo de BBVA Suiza.
+            </p>
+            <p className="font-bold text-gray-900">
+              En noviembre de 2015 fundó Azvalor, donde es Director Financiero y
+              de Operaciones desde entonces.
             </p>
             <div className="text-sm font-medium text-gray-500">
-              <span className="text-gray-700">Mary Sullivan</span>{" "}
+              <span className="text-gray-700">Sergio Fernández-Pacheco</span>{" "}
               <span className="text-gray-400">/</span>{" "}
               <a className="text-blue-500" href="#0">
-                CTO at Microsoft
+                profesor
               </a>
             </div>
           </div>

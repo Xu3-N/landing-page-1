@@ -70,8 +70,7 @@ export default function HeroHome() {
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              The website builder you're <br className="max-lg:hidden" />
-              looking for
+              La Bolsa Española
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
@@ -79,8 +78,10 @@ export default function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay={300}
               >
-                Simple is a modern website builder powered by AI that changes
-                how companies create user interfaces together.
+                Donde el toque humano marca la diferencia. En BME Exchange nos
+                preocupamos por usted y por su negocio. Por eso, todos nuestros
+                servicios están diseñados a medida para apoyar su crecimiento en
+                los ámbitos de la cotización y la actividad bursátil.
               </p>
               <div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1]">
                 <div
@@ -90,10 +91,10 @@ export default function HeroHome() {
                 >
                   <a
                     className="btn group mb-4 w-full bg-linear-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-sm hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                    href="#0"
+                    href="https://api.whatsapp.com/send/?phone=447766907217&text&type=phone_number&app_absent=0"
                   >
                     <span className="relative inline-flex items-center">
-                      Start Free Trial{" "}
+                      Súmate a nosotros{" "}
                       <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
                         -&gt;
                       </span>
@@ -101,16 +102,16 @@ export default function HeroHome() {
                   </a>
                   <a
                     className="btn w-full bg-white text-gray-800 shadow-sm hover:bg-gray-50 sm:ml-4 sm:w-auto"
-                    href="#0"
+                    href="https://api.whatsapp.com/send/?phone=447766907217&text&type=phone_number&app_absent=0"
                   >
-                    Learn More
+                    aprender más
                   </a>
                 </div>
               </div>
             </div>
           </div>
           {/* Hero image */}
-          <div
+          {/* <div
             className="mx-auto max-w-3xl"
             data-aos="zoom-y-out"
             data-aos-delay={600}
@@ -146,6 +147,20 @@ export default function HeroHome() {
                 </span>
               </div>
             </div>
+          </div> */}
+          <div className="w-full flex justify-center items-center">
+            <iframe
+              // src="https://www.youtube.com/embed/rTWBgwyvTRY"
+              src="https://www.youtube.com/embed/2TwY7QbxSTE"
+              width="800"
+              height="400"
+              loading="lazy"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; clipboard-write;
+                encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
           </div>
         </div>
       </div>
